@@ -33,3 +33,27 @@ const outsideTemp=null
  }
 
  console.log(myFunction);
+ 
+ // stack (perimitive), Heap (Non- Primitive)
+let myYoutubename = "kaleemshah";
+
+ let anothername =  myYoutubename;
+ anothername = "chaiaurcode"
+ console.log(anothername);
+ console.log(myYoutubename);
+
+ let userOne ={
+   email :"user1google.com",
+   upi : "seer@ybl"
+ }
+
+ let userTwo =
+   userOne
+
+ userTwo.email = "hitesh@gmail.com"
+
+ console.log(userOne);
+ console.log(userTwo);
+
+ 
+ 
